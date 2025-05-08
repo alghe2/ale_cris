@@ -1,0 +1,60 @@
+ 1  ls
+    2  cd ale_cris
+    3  git breanch
+    4  git branch
+    5  git remote add upstream https://github.com/alghe2/ale_cris
+    6  git checkout main
+    7  git fetch upstream
+    8  git checkout main
+    9  git merge upstream/main
+   10  git push origin main
+   11  git branch
+   12  git checkout -b cris_prueba
+   13  git branch
+   14  mkdir mi_pre_prueba
+   15  ls
+   16  rm mi_pre_prueba
+   17  ls
+   18  sudo rm -r mi_pre_prueba
+   19  ls
+   20  mkdir mi_pre_prueba_cris
+   21  ls
+   22  cd mi_pre_prueba_cris
+   23  nano info.txt
+   24  cat info.txt
+   25  cp info.txt copia_info.txt
+   26  cat info.txt copia_info.txt
+   27  sudo rm -r copia_info.txt
+   28  ls
+   29  ls -l info.txt
+   30  chmod 600 info.txt
+   31  touch .cristobal
+   32  ls
+   33  ls -a
+   34  find . -name "*.txt"
+   35  grep "CRISTOBAL" info.txt
+   36  echo "Hola" > a.txt
+   37  echo "Mundo" > b.txt
+   38  cat a.txt b.txt > saludo.txt
+   39  cat saludo.txt
+   40  tar -czf archivos.tar.gz *.txt
+   41  ls
+   42  mkdir extraidos
+   43  tar -xzf archivos.tar.gz -c extraidos
+   44  tar -xzf archivos.tar.gz -C extraidos
+   45  ls
+   46  cd extraidos
+   47  ls
+   48  nano nombres.csv
+   49  awk nombres.csv
+   50  awk
+   51  awk -F: '{ print $1 }'nombres.csv
+   52  awk -F: '{ print $1 }' > nombres.csv
+   53  cd ale_cris
+   54  cd mi_pre_prueba_cris
+   55  awk -F: '{print $1}' > nombres.csv
+   56  cd ale_cris
+   57  cd mi_pre_prueba_cris
+   58  nano edad.py
+   59  python3 edad.py
+   60  history
