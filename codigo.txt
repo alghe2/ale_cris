@@ -1,0 +1,116 @@
+    1  history
+    2  git clone https://github.com/alghe2/ale_cris
+    3  ls
+    4  cd ale_cris
+    5  ls
+    6  git branch
+    7  git checkout
+    8  git init
+    9  git commit -m "primer commit"
+   10  git branch -m main
+   11  git add .
+   12  git commit -m "primer commit"
+   13  echo "# ale_cris" >> README.md
+   14  git init
+   15  git add README.md
+   16  git commit -m "first commit"
+   17  git branch -M main
+   18  git remote add origin https://github.com/alghe2/ale_cris.git
+   19  git push -u origin main
+   20  git branch
+   21  git checkout main
+   22  git pull origin maion
+   23  git pull origin main
+   24  git checkout -b ale_prueba
+   25  git branch
+   26  git add .
+   27  git commit -m "Rama"
+   28  git checkout main
+   29  git commit -m "Rama"
+   30  git branch
+   31  git checkout ale_prueba
+   32  mkdir mi_pre_prueba_ale
+   33  cd
+   34  cd ale_cris
+   35  cd mi_pre_prueba_ale
+   36  nano info.txt
+   37  cat info.txt
+   38  cp info.txt copia_info.txt
+   39  ls
+   40  cat copia_info.txt
+   41  cat info.txt copia_info.txt
+   42  cd
+   43  ls
+   44  cd ale_cris
+   45  git branch
+   46  rm copia_info.txt
+   47  sudo rm copia_info.txt
+   48  ls
+   49  cd mi_pre_prueba_ale
+   50  ls
+   51  sudo rm -r copia_info.txt
+   52  ls
+   53  ls -l
+   54  ls -l info.txt
+   55  chmod 600 info.txt
+   56  touch .alexander
+   57  ls
+   58  ls -a
+   59  ls -la
+   60  find .txt
+   61  find . -name "*.txt"
+   62  grep . -name "*.txt"
+   63  grep "Alexander" info.txt
+   64  sudo nano echo 'hola' > a.txt
+   65  cd
+   66  ls
+   67  cd ale_cris
+   68  ls
+   69  cd mi_pre_prueba_ale
+   70  ls
+   71  sudo rm -r echo.save
+   72  ls
+   73  echo "hola" PARTE 2: COMANDOS INTERMEDIOS DE LINUX
+   74  1. Crea archivos 'a.txt' con "Hola" y 'b.txt' con "Mundo", únelos en 'saludo.txt'.
+   75  2. Comprime todos los archivos '.txt' en 'archivos.tar.gz'.
+   76  3. Extrae 'archivos.tar.gz' en una carpeta llamada 'extraidos'.
+   77  4. Usa 'awk' para imprimir nombres de un archivo 'nombres.csv' con datos tipo:
+   78  Juan,23
+   79  Ana,19| Pedro,31
+   80  clean
+   81  clear
+   82  echo "hola" > a.txt
+   83  ls
+   84  cat a.txt
+   85  echo "mundo" > b.txt
+   86  cat b.txt
+   87  ks
+   88  ls
+   89  cat a.txt b.txt > saludo.txt
+   90  ls
+   91  cat saludo.txt
+   92  history
+   93  clear
+   94  tls
+   95  ls
+   96  tar -czf archivos.tar.gz *.txt
+   97  ls
+   98  mkdir extraidos
+   99  ls
+  100  tar -xzf archivos.tar.gz -C extraidos
+  101  ls
+  102  cd extraidos
+  103  ls
+  104  cd
+  105  cd ale_cris
+  106  cd mi_pre_prueba_ale
+  107  ls
+  108  echo -e "juan,23\ana,19\pedro,31" > nombres.csv
+  109  awk -F ',' '{'
+  110  awk -F ',' '{print $1}' nombres.csv
+  111  nano edad.py
+  112  python3 edad.py
+  113  ls
+  114  cd
+  115  cd ale_cris
+  116  history
